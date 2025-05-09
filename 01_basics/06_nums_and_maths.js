@@ -16,7 +16,10 @@ console.log(Math.abs(4));
 // console.log(math.ceil(4.2));
 // console.log(math.floor(4.2));
 // console.log(math.min(2,3,6,1,0));
-console.log(math.random());
-console.log(math.random()*10);
+// console.log(math.random());
+// console.log(math.random()*10+1);
+const min =10
+const max= 20
+console.log(math.floor(math.random()*(max-min+1))+min)
 
 
